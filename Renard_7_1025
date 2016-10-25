@@ -1,0 +1,42 @@
+
+
+    1. go to https://github.com/D22-CS
+    2. make sure you are a member 
+    3. fork d22-assignments
+    4. copy the URL 
+    In a terminal:
+    5. cd
+    6. mkdir assignments
+    7. cd assignments; git init
+    8. git remote add preapcs << "your url that you copied" >>>
+    9. git pull preapcs master
+    10. cp ~/journals/* ~/assignments/
+    11. git add *
+    12. git commit -m "this is my private repository"
+    13. git push -u preapcs master
+
+              
+              
+            
+
+    Describe what you accomplished on Thursday and Friday.
+psuedocoded a ceasar salad encrypter, and then psuedocoded a brute force decrypter for it
+which entails running a for loop that shifts the message over i spaces and testing for matches
+
+    Provide a specific description of what you will accomplish Monday.
+work on the encrypter
+
+    Provide a specific description of what you will accomplish Tuesday.
+probably still working on the encrypter
+
+    Provide a specific description of what you will accomplish Wednesday.
+probably finish about halfway through the class
+
+    Provide a specific description of what you will accomplish Thursday.
+make a decrypter by butchering and reusing most of the code from the encrypter
+
+    Provide a specific description of what you will accomplish Friday.
+get frustrated and do it all in bash instead
+
+    Don't forget git add yourfile, git commit - m "your message", git push origin master
+
