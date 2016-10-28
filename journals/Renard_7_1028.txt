@@ -1,0 +1,24 @@
+
+
+    Explain what the %s and %d are used for (with regards to printing)?
+%s is used with strings and %d is used for decimals
+
+    What advantages do they have for concatenating strings?
+
+
+    Try this code
+
+
+    char str[] = "Reflection and contemplation are life skills.";
+              char input[100];
+
+              printf("%s\n", str); //What does this do?
+//outputs a string on a newline "Reflection and contemplation are life skills."
+              printf("%c\n", *str);//What does this do?
+//outputs a character on a newline "R"
+                scanf("%99s", input);//What does this do?
+//makes a string that is 99 characters long, adds spaces if there isnt already enough scharacters
+//outputs "Reflection and contemplation are life skills" preluded by a bunch of spaces
+
+    Don't forget git add yourfile, git commit - m "your message", git push origin master
+
