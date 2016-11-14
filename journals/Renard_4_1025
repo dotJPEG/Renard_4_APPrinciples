@@ -1,0 +1,16 @@
+1.What does "#include < stdio.h>" do? Why?
+std-standard io- input output.
+stdio is the library for standard input and output functions
+
+2.What does "int main()" do? Why?
+Most libraries and compilers work better from what i can tell when you are using int main
+
+3.What does eof stand for?
+End Of File
+
+4.Why do we close the file?
+If the file isnt closed than it stays open, and an operating system can only handle
+a limited amount of open files at a time
+
+5.Why do we use return 0? Is it necessary?
+since we used int main instead of void main he need to return an int, in this case we return the int 0
